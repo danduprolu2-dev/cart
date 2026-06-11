@@ -11,7 +11,7 @@ function App() {
 
   // Fetch products from JSON file
   useEffect(() => {
-    fetch("/products.json")
+    fetch(`${import.meta.env.BASE_URL}products.json`)
       .then((response) => response.json())
       .then((data) => {
         setProducts(data);
@@ -28,7 +28,6 @@ function App() {
     const existingItem = cart.find((item) => item.id === product.id);
 
     if (existingItem) {
-      // If product already in cart, increase quantity
       setCart(
         cart.map((item) =>
           item.id === product.id
@@ -37,7 +36,6 @@ function App() {
         ),
       );
     } else {
-      // Add new product to cart
       setCart([...cart, { ...product, quantity: 1 }]);
     }
   };

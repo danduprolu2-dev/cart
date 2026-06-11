@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Dell Laptop",
+    "price": 999,
+    "description": "13th Gen Intel Core i5 - Smart Choice",
+    "image": "/images/laptop.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Wireless Mouse",
+    "price": 29,
+    "description": "Precision wireless mouse",
+    "image": "/images/mouse.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Mechanical Keyboard",
+    "price": 79,
+    "description": "Zebronics wired keyboard",
+    "image": "/images/keyboard.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Gaming Monitor",
+    "price": 399,
+    "description": "Samsung Odyssey G4 - 27 inch gaming display",
+    "image": "/images/monitor.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Noise-Cancelling Headphones",
+    "price": 199,
+    "description": "Premium wireless audio with ANC",
+    "image": "/images/headphone.jpg"
+  },
+  {
+    "id": 6,
+    "name": "4K Webcam",
+    "price": 89,
+    "description": "EMEET 4K Smart Webcam S600",
+    "image": "/images/webcam.jpg"
+  }
+]
